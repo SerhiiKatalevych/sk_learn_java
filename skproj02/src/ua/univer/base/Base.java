@@ -1,10 +1,13 @@
 package ua.univer.base;
 
+import ua.univer.base.begin.Begin;
+import ua.univer.base.integers.Integers;
+
 public class Base {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println(Begin.AreaOfCircle(22.4));
+		System.out.println(Integers.SumOfddDigit(42));
 	}
 
 }
