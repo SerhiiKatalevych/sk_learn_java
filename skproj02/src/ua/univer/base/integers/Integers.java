@@ -37,6 +37,22 @@ public class Integers {
 		public static int MultOfddDigit (int dd) {
 			return Integers.FirstDigitOfdd(dd)*Integers.SecondDigitOfdd(dd);
 		}
+		
+		public static int ReversDd (int dd) {
+			return Integers.SecondDigitOfdd(dd)*10+Integers.FirstDigitOfdd(dd);
+		}
+		
+		public static int FirstDigitOftd (int td) {
+			return td/100;
+		}
+		
+		public static int SeconDigitOftd (int td) {
+			return Integers.FirstDigitOfdd((td-(Integers.FirstDigitOftd(td)*100)));
+		}
+		
+		public static int ThirdDigitOftd (int td) {
+			return td%100;
+		}
 
 
 }
