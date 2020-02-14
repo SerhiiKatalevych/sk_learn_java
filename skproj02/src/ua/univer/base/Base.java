@@ -31,6 +31,7 @@ public class Base {
 		System.out.println(Ifcase.BeggerNum(100, 2));
 		Ifcase.NumOfAboveAndBelowZero(1, -2, -30);
 		Ifcase.DayOfWeek(4);
+		Ifcase.SeasonByMonth(11);
 	}
 
 }
